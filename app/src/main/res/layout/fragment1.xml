@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_dark"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter text to submit to fragment 2"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
